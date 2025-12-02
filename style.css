@@ -1,0 +1,132 @@
+body{
+    background: #ffefd5;
+}
+.homearea{
+    width: 95%;
+    height: auto;
+    background: #a7fc00;
+    margin: 0 auto;
+}
+#header{
+    width: 94%;
+    height: auto;
+    background: #644117;
+    padding: 5px 3%;
+}
+#header h1{ 
+    padding: 0px;
+    margin: 0px;
+    color: #d2b48c;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header p {
+    text-decoration: none;
+    color: #bc8f8f;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header img {
+    width: 170px;
+    height: 67px;
+    float: left;
+    background-color: none;
+}
+.navbar{
+    width: 100%;
+    background: #fa8072;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.navbar ul{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.navbar li {
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+    font-family: tahoma;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #eee8aa;
+    font-size: 20px;
+}
+.navbar li a:hover {
+    text-decoration: none;
+    color: #a40000;
+    font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner img {
+    height:min-content;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+.contentarea {
+    padding: 0px 10px;
+}
+.contentarea li {
+    text-align: center;
+    list-style: none;
+    margin: 0px 20px;
+    font-family: tahoma;
+}
+.contentarea li a {
+    text-decoration: none;
+    width: 100%;
+    background: #eeff1b;
+    color: #ff2400;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 100px;
+}
+.contentarea li a:hover{
+    text-decoration: none;
+    color: #0000cd;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 95px 50px;
+    align-items: center;
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover; 
+}
+.grid > article{
+    box-shadow: 5px 5px 5px 0px #ffc1cc;
+    border-radius: 20px;
+    text-align: center;
+    background: #1ce6ac;
+    transition: transform;
+}
+.grid > article img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.grid > article:hover{
+    transform: scale(1.2);
+}
+.text > article{
+    border: 3px solid #0ff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: #ae7550;
+}
+.text > article h2{
+    text-align: center;
+}
